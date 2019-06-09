@@ -1,0 +1,106 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/tong/tong",
+    "pages/tong/chat/chat",
+    "pages/my/my",
+    "pages/my/myLogin/myLogin",
+    "pages/my/login/sendPhone/sendPhone",
+    "pages/my/login/sendCode/sendCode",
+    "pages/my/site/site",
+    "pages/my/site/address/address",
+    "pages/my/site/address/add-attr/add-attr",
+    "pages/my/site/address/delete-attr/delete-attr",
+    "pages/my/site/pravicy/pravicy",
+    "pages/my/myMessage/myMessage",
+    "pages/my/wallet/wallet",
+    "pages/my/wallet/balance/balance",
+    "pages/my/wallet/balance/recharge/recharge",
+    "pages/my/wallet/balance/setPassWord/setPassWord",
+    "pages/my/wallet/balance/detail/detail",
+    "pages/my/we/we",
+    "pages/my/discountCard/discountCard",
+    "pages/my/order/order",
+    "pages/my/order/detail/detail",
+    "pages/index/pay/pay",
+    "pages/index/search/search",
+    "pages/index/location/location",
+    "pages/index/list/parcel/parcel",
+    "pages/index/list/line/line",
+    "pages/index/list/line/lineShop/lineShop",
+    "pages/index/list/line/lineRoom/lineRoom",
+    "pages/index/list/advance/advance",
+    "pages/index/list/advance/shop/shop",
+    "pages/index/list/advance/advRoom/advRoom",
+    "pages/index/list/advance/advList/advList",
+    "pages/index/list/advance/advShopMess/advShopMess",
+    "pages/index/list/advance/seeDishes/seeDishes",
+    "pages/index/list/activity/activity",
+    "pages/index/list/activity/detail/detail",
+    "pages/index/recommed/recommed",
+    "pages/index/discount/discount",
+    "pages/index/shop/shop",
+    "pages/index/shop/shopOrder/shopOrder",
+    "pages/components/list/list",
+    "pages/components/shopCart/shopCart",
+    "pages/components/list/cartControl/cartControl",
+    "pages/components/list/goodsDetail/goodsDetail",
+    "pages/components/discuss/discuss",
+    "pages/components/templates"
+  ],
+  "subPackages":[
+    {
+      "root": "pagesA",
+      "pages":[
+        "invitation/commonModel/commonModel",
+        "invitation/birthdayModel/birthdayModel",
+        "invitation/sendInvitation/sendInvitation"
+      ] 
+    },
+    {
+      "root": "pagesB",
+      "pages":[
+        "activity/share/share",
+        "activity/hadShare/hadShare",
+        "activity/followGzh/followGzh"
+      ] 
+    }
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText":"掌里通",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#0767c8",
+    "backgroundColor": "#FBFBFB",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index_focus.png"
+      },
+      {
+        "pagePath": "pages/tong/tong",
+        "text": "通通",
+        "iconPath": "images/tong.png",
+        "selectedIconPath": "images/tong_focus.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my_focus.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  }
+}

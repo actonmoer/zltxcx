@@ -1,0 +1,67 @@
+{
+	"description": "项目配置文件。",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.3.0",
+	"appid": "wxd854e2f0d96b1840",
+	"projectname": "掌里通美食预定",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"list": [
+				{
+					"id": 0,
+					"name": "text",
+					"pathName": "pages/my/order/detail/detail",
+					"query": "id=1082&order_type=1",
+					"scene": "1047"
+				},
+				{
+					"id": 1,
+					"name": "text2",
+					"pathName": "pagesA/invitation/commonModel/commonModel",
+					"query": "order_id=492",
+					"scene": "1044",
+					"shareInfo": {
+						"groupName": "测试模拟群0",
+						"shareName": "Rgv1jwTtOAT64jih8tiuccXzg_nmZjeLXp4ytdeVgZc@cr4dev",
+						"shareKey": "NuYhe5CoKNaSTHiqHDwhziXCElcp7t-T4T3PYHYERso4pKjpivtcJRvLtEFrWUINC6SuYeVZkE5gjxq8YM_RAw~~"
+					}
+				},
+				{
+					"id": 2,
+					"name": "推广分享",
+					"pathName": "pagesB/activity/followGzh/followGzh",
+					"query": "userId=8",
+					"scene": "1047"
+				}
+			]
+		}
+	}
+}
